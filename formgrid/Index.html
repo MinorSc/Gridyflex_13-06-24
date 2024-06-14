@@ -1,28 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    
+
     <!-- FONT AWESOME -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <!-- ANIMATE CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="content">
 
-        <h1 class="logo">Contac <span>Nos</span></h1>
-        <div class="contac-container animated bounceInUp">
-            <div class="contac-form">
+        <h1 class="logo">Contacta<span>Nos</span></h1>
+        <div class="contact-container animated bounceInUp">
+            <div class="contact-form">
                 <h3>Formulario de contacto</h3>
                 <form action="">
+                    <p>
+                        <label for="">Nombre</label>
+                        <input type="text" name="nombre" placeholder="Nombre">
+                    </p>
 
+                    <p>
+                        <label for="">Correo</label>
+                        <input type="email" name="Correo" placeholder="Correo">
+                    </p>
+
+                    <p>
+                        <label for="">Mensaje</label>
+                        <textarea name="Mensaje" rows="3"></textarea>
+                    </p>
+
+                    <p class="bloque">
+                        <button>
+                            Enviar
+                        </button>
+                    </p>
                 </form>
             </div>
-            <div class="contac-info">
+            <div class="contact-info">
                 <h4>Mas Infomacion</h4>
                 <ul>
                     <li>
@@ -37,6 +59,8 @@
                         <i class="fas fas fa-envelope-open-text">misolano1192@gmail.com</i>
                     </li>
                 </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque cupiditate atque autem nostrum suscipit velit neque pariatur dolor! Vero tempore debitis doloremque eius eligendi officiis dolor! Iure vitae dicta sit?</p>
+                <p>Hola Mundo</p>
             </div>
         </div>
 
@@ -47,4 +71,5 @@
 
     <script src="main.js"></script>
 </body>
+
 </html>
